@@ -1,0 +1,202 @@
+<html>
+<head>
+<title>TestNG:  All_scenarios(failed)</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>All_scenarios(failed)</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Oct 25 19:29:55 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>54 seconds (54308 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.test.user.All_scenarios.RUNALL()'><b>RUNALL</b><br>Test class: com.test.user.All_scenarios<br>Parameters: {Account_number=, Add_amenities=, additional_input=, Aerobics_Instructor_Exp_DD=, Amount_details=, Annual_Fee_Per_Person=, Billing_Frequency=, Brand=City Sports, Can_contact_radio_button=, Card_name=, Card_number=, Certificate_No=, Certification_IssuedByDPValues=, Certified_In_DD=, Change_brand_name=, Checkbox_class_formats=, Class_per_week=, Club_Address=, Club_city=, Club_Employer_DD=, Club_name=, Club_phone=, Club_zip=, Country=, Date_to_begin=, Dropdown_values=, E_EducationLeve_Dropdown=, Email=, Emp_details=, Emp_gap=, Employer_name=, EmploymentHowResigned_dd=, EmploymentSuccess_ip=, EmploymentWhatDislike_ip=, EmploymentWhatLike_ip=, EmploymentWhyLeaveCurrent_ip=, EmploymentWhyReapply_ip=, EmploymentWhyResignInFuture_ip=, Everemployed_rdobtn=, Ex_month=, Ex_year=, F_Name=, File_name=, First_Month_Dues=, From_date=, Full_name=, Gender_dd=, Hold_cert_GT_AC_ratio_button=, How_hear_abt_us=, Included_amenities=, Initial_Term=, Initiation_Fee=, input_data=, input_data1=, input_data2=, input_data3=, input_data4=, input_data5=, input_data6=, IP_Address=, Job_long_des=, Job_short_des=, Job_title=, L_Name=, Languages=, Last_Month_Dues=, Leaving_Reason=, Member_address=, Member_City=, Member_Phone=, Member_Zipcode=, Mobile_Device=, Module=Free Pass, No_Prev_emp_chk_box=, Number_of_Persons1=, Payment_type=, Personal_Training_ExperienceDPValues=, Plan_rates=, Prepayment=, PriorEmploymentWhyResigned_ip=, RaceEthnicity_dd=, Radiobtn18YearsOld=, Radius_travel_to_work=, Rates/amenities=, Rates_details=, Res_Run=No, Routing_number=, Run=Yes, State=, Supervisor_name=, TestScenario=TC_05_Validate_Freepass_Condition_Text, Text_input=BY CHECKING THIS BOX, YOU CONSENT TO RECEIVE MARKETING TEXT MESSAGES AND CALLS FROM FITNESS INTERNATIONAL, LLC, INCLUDING VIA AN ARTIFICIAL OR PRERECORDED VOICE, AT THE NUMBER ABOVE. CONSENT IS NOT A REQUIRED CONDITION OF PURCHASE; MESSAGE FREQUENCY IS RECURRING; MESSAGE AND DATA RATES MAY APPLY. TO STOP RECEIVING MESSAGES, TEXT STOP. BY CLICKING ‘NEXT,’ YOU ALSO AGREE TO OUR TERMS AND CONDITIONS, WHICH INCLUDE AN AGREEMENT TO ARBITRATE, AND OUR PRIVACY POLICY. IF YOU DON’T WISH TO SIGN UP FOR TEXT MESSAGES AT THIS TIME, YOU CAN PICK UP A COMPLIMENTARY GUEST PASS IN PERSON AT YOUR NEAREST CLUB!, TextMessage=Freepass_Condtion_Text, Time_period_DD=, To_date=, Total_initial_Payment=, Url=, Work_time=}, org.testng.TestRunner@4fe01803</td>
+<td><div><pre>java.lang.Exception: org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created
+from no such execution context: loader has changed while resolving nodes
+  (Session info: chrome=115.0.5790.170) 
+Host info: host: &apos;CPC-ShaikIrF-B1&apos;, ip: &apos;10.23.13.18&apos;
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, browserVersion: 115, goog:chromeOptions: {args: [--remote-allow-origins=*, --disable-extensions, --incognito], binary: C:\Users\Shaik.Irshad\.cach..., extensions: []}, pageLoadStrategy: eager}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:159)
+	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:108)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:83)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:72)
+	at com.BasePackage.Base_Class.setup(Base_Class.java:104)
+	at com.test.user.All_scenarios.RUNALL(All_scenarios.java:81)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+	at com.test.user.All_scenarios.RUNALL(All_scenarios.java:874)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 50 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1594600318", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1594600318'><pre>java.lang.Exception: org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created
+from no such execution context: loader has changed while resolving nodes
+  (Session info: chrome=115.0.5790.170) 
+Host info: host: &apos;CPC-ShaikIrF-B1&apos;, ip: &apos;10.23.13.18&apos;
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, browserVersion: 115, goog:chromeOptions: {args: [--remote-allow-origins=*, --disable-extensions, --incognito], binary: C:\Users\Shaik.Irshad\.cach..., extensions: []}, pageLoadStrategy: eager}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:159)
+	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:108)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:83)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:72)
+	at com.BasePackage.Base_Class.setup(Base_Class.java:104)
+	at com.test.user.All_scenarios.RUNALL(All_scenarios.java:81)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+	at com.test.user.All_scenarios.RUNALL(All_scenarios.java:874)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>7</td>
+<td>com.test.user.All_scenarios@10683d9d</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.test.user.All_scenarios.RUNALL()'><b>RUNALL</b><br>Test class: com.test.user.All_scenarios<br>Parameters: {Account_number=, Add_amenities=, additional_input=, Aerobics_Instructor_Exp_DD=, Amount_details=, Annual_Fee_Per_Person=, Billing_Frequency=, Brand=City Sports, Can_contact_radio_button=, Card_name=, Card_number=, Certificate_No=, Certification_IssuedByDPValues=, Certified_In_DD=, Change_brand_name=, Checkbox_class_formats=, Class_per_week=, Club_Address=, Club_city=, Club_Employer_DD=, Club_name=, Club_phone=, Club_zip=, Country=, Date_to_begin=, Dropdown_values=, E_EducationLeve_Dropdown=, Email=Test.t05@yopmail.com, Emp_details=, Emp_gap=, Employer_name=, EmploymentHowResigned_dd=, EmploymentSuccess_ip=, EmploymentWhatDislike_ip=, EmploymentWhatLike_ip=, EmploymentWhyLeaveCurrent_ip=, EmploymentWhyReapply_ip=, EmploymentWhyResignInFuture_ip=, Everemployed_rdobtn=, Ex_month=, Ex_year=, F_Name=Test22, File_name=, First_Month_Dues=, From_date=, Full_name=, Gender_dd=, Hold_cert_GT_AC_ratio_button=, How_hear_abt_us=, Included_amenities=, Initial_Term=, Initiation_Fee=, input_data=, input_data1=, input_data2=, input_data3=, input_data4=, input_data5=, input_data6=, IP_Address=, Job_long_des=, Job_short_des=, Job_title=, L_Name=Test, Languages=, Last_Month_Dues=, Leaving_Reason=, Member_address=, Member_City=, Member_Phone=9999999995, Member_Zipcode=90001, Mobile_Device=, Module=Free Pass, No_Prev_emp_chk_box=, Number_of_Persons1=, Payment_type=, Personal_Training_ExperienceDPValues=, Plan_rates=, Prepayment=, PriorEmploymentWhyResigned_ip=, RaceEthnicity_dd=, Radiobtn18YearsOld=, Radius_travel_to_work=, Rates/amenities=, Rates_details=, Res_Run=No, Routing_number=, Run=Yes, State=, Supervisor_name=, TestScenario=TC_16_Validate_text_agreement, Text_input=To the fullest extent permitted by law, I hereby acknowledge and agree to the following: (1) Assumption of Risk. Use of any facilities, services, equipment or premises at a fitness club (collectively, “Facilities”) involves risks of injury to my person and property and to the person or property of any minor for whom I have guardianship and have requested or allowed entry to or use of such a club (including the use of “Kids Klub” services) (a “Minor”); by engaging in such use, or by permitting such use by a Minor, I voluntarily accept and assume full responsibility for such risks. (2) Waiver of Liability. Fitness International, LLC, its successors, affiliates and related entities (including Fitness & Sports Clubs, LLC and LAF Canada Company), and their respective directors, officers, members, managers, employees, volunteers, independent contractors, and agents (collectively, "FI") will not be liable for any injury to my person or property or to the person or property of any Minor. On behalf of myself, my heirs (including any Minors), personal representatives and assigns, I hereby release, discharge and hold harmless FI from any and all liability and claims arising from my use, or any Minor’s use, of the Facilities, including, but not limited to, all liability and claims arising from personal injury (including death), accidents or illness, and damage to, loss of, or theft of property, whether caused by the active or passive negligence of FI, and I covenant not to sue FI with respect to, and I waive any and all claims that I may have now or in the future against FI for, any liability arising from my use, or any Minor’s use, of the Facilities. This paragraph (2) is expressly void and unenforceable and not a part of this agreement in New York and Massachusetts. (3) Authorization to Contact. By providing my phone number or e-mail address, I authorize the operator of this club or its affiliates to contact me regarding promotions or special events, regardless of whether I am on a Do Not Call registry.I further understand and agree that I may not use any of the Facilities at this club unless I am an authorized guest of either a member or a permitted vendor, or unless specifically authorized by club staff. Some restrictions on my ability to use the Facilities may apply.If any provision above is null, void or unenforceable under applicable law, it shall be deemed omitted and shall not apply, but the other provisions above shall remain in effect., TextMessage=Text_agreement, Time_period_DD=, To_date=, Total_initial_Payment=, Url=, Work_time=}, org.testng.TestRunner@4fe01803</td>
+<td></td>
+<td>43</td>
+<td>com.test.user.All_scenarios@10683d9d</td></tr>
+</table><p>
+</body>
+</html>
