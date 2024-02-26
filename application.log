@@ -1,19 +1,19 @@
-[INFO ] 2024-02-26 18:22:33.352 [main] Log - *** Running test method TC_04_Validate_GoogleURL...
-[INFO ] 2024-02-26 18:22:41.971 [main] Log - Chrome browser launched successfully
-[INFO ] 2024-02-26 18:22:46.164 [main] Log - Entered the application url successfully: https://www.google.com
-[INFO ] 2024-02-26 18:22:46.176 [main] Log - Google URL matches successfully
-[INFO ] 2024-02-26 18:22:46.809 [main] Log - *** Test Suite TC_04_Validate_GoogleURL ending ***
-[INFO ] 2024-02-26 18:22:46.809 [main] Log - Browser is closed
-[INFO ] 2024-02-26 18:22:46.815 [main] Log - *** Running test method TC_05_Validate_SearchTextbox...
-[INFO ] 2024-02-26 18:22:48.364 [main] Log - Chrome browser launched successfully
-[INFO ] 2024-02-26 18:22:51.351 [main] Log - Entered the application url successfully: https://www.google.com
-[INFO ] 2024-02-26 18:22:53.612 [main] Log - Searchbox validated successfully
-[INFO ] 2024-02-26 18:22:53.949 [main] Log - *** Test Suite TC_05_Validate_SearchTextbox ending ***
-[INFO ] 2024-02-26 18:22:53.949 [main] Log - Browser is closed
-[INFO ] 2024-02-26 18:22:53.951 [main] Log - *** Running test method TC_06_Validate_Click_btn_GoogleSearch...
-[INFO ] 2024-02-26 18:22:55.378 [main] Log - Chrome browser launched successfully
-[INFO ] 2024-02-26 18:22:59.756 [main] Log - Entered the application url successfully: https://www.google.com
-[INFO ] 2024-02-26 18:23:01.236 [main] Log - Searchbox validated successfully
-[INFO ] 2024-02-26 18:23:07.542 [main] Log - failed to clicked on Google Search button
-[INFO ] 2024-02-26 18:23:07.882 [main] Log - *** Test Suite TC_06_Validate_Click_btn_GoogleSearch ending ***
-[INFO ] 2024-02-26 18:23:07.883 [main] Log - Browser is closed
+[INFO ] 2024-02-26 18:30:56.317 [main] Log - *** Running test method TC_04_Validate_GoogleURL...
+[INFO ] 2024-02-26 18:30:59.436 [main] Log - Chrome browser launched successfully
+[INFO ] 2024-02-26 18:31:03.414 [main] Log - Entered the application url successfully: https://www.google.com
+[INFO ] 2024-02-26 18:31:03.425 [main] Log - Google URL matches successfully
+[INFO ] 2024-02-26 18:31:04.087 [main] Log - *** Test Suite TC_04_Validate_GoogleURL ending ***
+[INFO ] 2024-02-26 18:31:04.087 [main] Log - Browser is closed
+[INFO ] 2024-02-26 18:31:04.094 [main] Log - *** Running test method TC_05_Validate_SearchTextbox...
+[INFO ] 2024-02-26 18:31:05.550 [main] Log - Chrome browser launched successfully
+[INFO ] 2024-02-26 18:31:09.811 [main] Log - Entered the application url successfully: https://www.google.com
+[INFO ] 2024-02-26 18:31:12.145 [main] Log - Searchbox validated successfully
+[INFO ] 2024-02-26 18:31:12.628 [main] Log - *** Test Suite TC_05_Validate_SearchTextbox ending ***
+[INFO ] 2024-02-26 18:31:12.628 [main] Log - Browser is closed
+[INFO ] 2024-02-26 18:31:12.632 [main] Log - *** Running test method TC_06_Validate_Click_btn_GoogleSearch...
+[INFO ] 2024-02-26 18:31:14.344 [main] Log - Chrome browser launched successfully
+[INFO ] 2024-02-26 18:31:18.538 [main] Log - Entered the application url successfully: https://www.google.com
+[INFO ] 2024-02-26 18:31:20.054 [main] Log - Searchbox validated successfully
+[INFO ] 2024-02-26 18:31:26.367 [main] Log - successfully clicked on Google Search button
+[INFO ] 2024-02-26 18:31:26.814 [main] Log - *** Test Suite TC_06_Validate_Click_btn_GoogleSearch ending ***
+[INFO ] 2024-02-26 18:31:26.814 [main] Log - Browser is closed
